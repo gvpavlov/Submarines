@@ -15,11 +15,15 @@ type Player struct {
 }
 
 // Assigns initial random coordinates to the player
-func (p Player) AssignCoordinates(x int, y int) {
+func (p *Player) AssignCoordinates(x int, y int) {
 
 }
 
 // Shoots a torpedo and calculates damage based on distance from target
-func (p Player) Shoot() {
+func (p *Player) Shoot() {
+
+}
+
+func (p *Player) Manoeuvre() {
 
 }
